@@ -1,6 +1,26 @@
-*{
+*box1{
     height: 100px;
     width: 500px; 
     background-color:darkred;
-    column-gap: 30pc;
+    column-gap: 30px;
 }
+ *box2{
+        display: flex;
+        flex-direction: row;
+        column-gap: 1px;
+        background-color: blue;
+        height: 100px;
+        width: 150px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    *box3{
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        background-color: hotpink;
+        height: 100px;
+        width: 150px;
+        padding:30px ;
+        border-radius: 10px;
+    }

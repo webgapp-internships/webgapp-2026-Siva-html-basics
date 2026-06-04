@@ -1,63 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color:white;
+        }
+        .box1 {
+            color: white;
+            background-color: brown;
+            height: 100px;
+            width: 300px;
+            padding: 20px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+        }
+        
+        .box2 {
+            color: black;
+            background-color: blue;
+            height: 100px;
+            width: 300px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .box3 {
+            color: blue;
+            background-color: green;
+            height: 100px;
+            width: 300px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .box4 {
+            color: darkblue;
+            background-color: antiquewhite;
+            height: 100px;
+            width: 300px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 50px;
+            margin-bottom: 20px;
+        }
+
+        .body1 {
+            color: blue;
+            background-color: black;
+            height: 100px;
+            width: 300px;
+            padding: 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+
+        }
+
+        .body2 {
+            color: blue;
+            background-color: black;
+            height: 100px;
+            width: 500px;
+            padding: 20px;
+            border-radius: 20px;
+
+
+        }
+
+        .content {
+            display: flex;
+            gap: 50px;
+
+        }
+        .new{
+            background-color:brown;
+            height: 200px;
+            width: 300px;
+            border-radius: 30px;
+            padding: 30px;
+            margin-bottom: 20px;
+            
+            
+        }
+    
+        .alert{
+            gap: 10px;
+            display: flex;
+            background-color: brown;
+            height: 100px;
+            width: 300px;
+            border-radius: 30px;
+            padding: 30px;
+            
+            
+        }
+        .project{
+            display: flex;
+            gap: 40px;
+        }
+    </style>
 </head>
+
 <body>
- <h1>welcome</h1>
- <h2>welcome</h2>
- <h3>welcome</h3>
- <h4>welcome</h4>
- <h5>welcome</h5>
- <h6>welcome</h6>  
- <p1 style="color:blueviolet;font-size:medium;">Arul Anandar<small>College</small> is an arts and<strong>sciences</strong>  college<mark>affiliated</mark> to Madurai Kamaraj<em>University</em> situated at Karumathur, Madurai, and administered by the Jesuits. The College name, meaning "filled with grace", refers to John de Britto, the Jesuit saint martyred at Orur, Tamil Nadu, India</p1>
- <br>
- <a href="https://erp.aactni.edu.in/application/course">arul</a>
- <br><br><br>
- <form action="">
-    <label >name:</label>
-    <input type="text">
-    <label >age:</label>
-    <input type="number">
-    <label >date of birth:</label>
-    <input type="date">
-    <br>
-    <br>
-    <label >mail</label>
-    <input type="email">
-    <br>
-    <br>
-    <label >email id</label>
-     <input type="password">
-     <label>gender</label>
-   <pr><input type="radio">male</pr>
-   <pr><input type="radio">female</pr> 
-   <br>
-   <br>
-   <label>checkbox</label>
-   <input type="checkbox">
-   <input type="checkbox" style="color: black;font-style: initial;">
-   <br>
-   <br>
-   <label >range</label>
-   <input type="range">
-   <br>
-   <label>date</label>
-   <input type="time">
-   <br>
-   <br>
-<label>file</label>
-<input type="file">
-<br>
-<br>
-<label >"reset"</label >
-   
-<br>
-<br>
-<label>"sumbit"</label>
- </form>
-<
+
+    <h1>employee attendance dasboard</h1>
+    <div class="container">
+
+
+        <div class="box1">
+            <p>total employee</p>
+            <h2>230</h2>
+            <div>
+             <i class="fa-solid fa-user"></i>
+            </div>
+           <div>
+        </div>
+        <div class="box2">
+            <p>present today</p>
+            <h3>1</h3>
+        </div>
+        <div class="box3">
+            <p>absent today</p>
+            <h4>1</h4>
+        </div>
+        <div class="box4">
+            <p>active project</p>
+            <h5>18</h5>
+        </div>
+
+    </div>
+
+<div class="content">
+    <div class="body1">
+        <p>violation today</p>
+        <h6>15</h6>
+    </div>
+    <div class="body2">
+        <p>due to last day</p>
+        <h7>34</h7>
+    </div>
+</div>
+<section class="project">
+    <section class="new">
+
+        <h8>recent check ins feed</h8>
+            <p>vanathiyan vimcent checked in at 9am</p>
+            <p>rajarethiran balaji checked in 9am</p>
+            <p>sekar narayanasamy checked in at 9am</p>
+            <p>ramiah murugesan checked in at 9am</p>
+    </section>
+        
+
+            <section class="alert">
+                <h9>violation alert</h9>
+                <section>
+                 <p>john late check in detected</p>
+                       <p>david geo fence violation</p> 
+                        <p>ramesh missing check out</p>
+                    </section>
+            </section>
+                
+        
+            
+    
+
+
+
 </body>
+
 </html>
